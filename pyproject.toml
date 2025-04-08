@@ -22,12 +22,6 @@ pyyaml = "*"
 python-dateutil = "^2.9.0.post0"
 python-dotenv = "^1.0.1"
 
-[tool.setuptools.packages.find]
-where = ["src"]
-
-[tool.setuptools.package-data]
-customer_support = ["*.txt", "*.rst"]
-
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.4"
 pytest-asyncio = "^0.23.6"
